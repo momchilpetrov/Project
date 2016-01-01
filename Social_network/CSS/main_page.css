@@ -1,0 +1,267 @@
+@CHARSET "UTF-8";
+
+body {
+	width: 100%;
+	height: 100%;
+	background-color: #cfd4d4;
+}
+
+header {
+	border: 5px solid #646a72 !important;
+	border-radius: 50px;
+	width: 80%;
+	height: 60px;
+	margin: 20px auto !important;
+	display: block;
+}
+header section {
+	float: left;
+}
+
+header > section:first-child {
+	width: 40%;
+}
+header > section:first-child form {
+	margin-left: 22px;
+	margin-top: 15px;
+}
+
+header > section:first-child form input {
+	background-color: #c3ceda;
+	color: #277fe1;
+	border: 2px solid #646a72;
+	border-radius: 10px;
+	width: 180px;
+	height: 25px;
+}
+
+header > section:first-child form button {
+	margin-left: 12px;
+	color:#277fe1;
+	background-color: #8aa9cb;
+	border: none;
+	border-radius: 10px; 
+	cursor: pointer;
+	height: 25px;
+	width: 80px;
+}
+
+header > section:nth-child(2), header > section:nth-child(3), header > section:last-child {
+	width: 20%;	
+}
+
+header > section:nth-child(2) div {
+	width: 100%;
+	display:inline-block;
+	clear: both;
+}
+
+header > section:nth-child(2) div a, header > section:nth-child(2) div h1  {
+	float: left;
+}
+
+header > section:nth-child(2) div a {
+	margin-top: 10px;
+	width: 30%;
+}
+
+header > section:nth-child(2) div h1 {
+	width: 70%;
+	box-sizing: border-box;
+	padding-top: 12px;
+	padding-right: 25px;
+	font-size: 30px;
+	color: #277fe1;
+
+}
+
+header > section:nth-child(3) div a:first-child, header > section:nth-child(3) div a:last-child {
+	float: left;
+}
+
+header > section:nth-child(3) div a:first-child {
+	margin-top: 13px;
+	width: 30%;
+}
+
+header > section:nth-child(3) div a:first-child img {
+float: right;
+}
+
+header > section:nth-child(3) div a:last-child {
+	text-decoration: none;
+	margin-top: 19px;
+	width: 70%;
+	box-sizing: border-box;
+	font-size: 20px;
+	color: #277fe1;
+	padding-left: 8px;
+}
+
+header > section:last-child button {
+	margin: 16px;
+	margin-left: 30px;
+	color: #277fe1;
+	background-color: #8aa9cb;
+	border: none;
+	border-radius: 10px; 
+	cursor: pointer;
+	height: 25px;
+	width: 80px;
+}
+
+aside, article {
+	float: left;
+}
+
+#main_container {
+	width: 80%;
+	margin: 20px auto;
+	clear: both;
+}
+
+
+aside {
+	margin-top: 20px !important;
+	width: 30%;
+	height: 550px;
+	border: 5px solid #646a72 !important;
+	border-radius: 50px;
+}
+
+article {
+	margin-left: 33.5px !important;
+	margin-top: 20px !important;
+	width: 65%;
+	border: 5px solid #646a72 !important;
+	border-radius: 50px;
+	height: 550px;
+}
+
+#main_container aside div:first-child {
+	width: 45%;
+	height: 50px;
+	margin: 20px auto;
+}
+
+#main_container aside div:first-child a {
+	margin: 0 10px;	
+}
+
+#main_container aside div:nth-child(2) {
+	width: 80%;
+	height: 200px;
+	margin: 20px auto;
+}
+
+#main_container aside div:nth-child(2) textarea {
+	background-color: #c3ceda;
+	color: #277fe1;
+	border: 2px solid #646a72;
+	border-radius: 10px;
+	font-size: 20px;
+}
+
+#main_container aside div:nth-child(2) button {
+	color:#277fe1;
+	background-color: #8aa9cb;
+	border: none;
+	border-radius: 10px; 
+	cursor: pointer;
+	height: 30px;
+	width: 100px;
+	margin-left: 75px;
+	margin-top: 20px
+}
+
+#main_container aside div:nth-child(3) {
+	width: 80%;
+	height: 100px;
+	margin: 20px auto;
+	border: 2px solid #646a72;
+	border-radius: 10px;
+}
+
+#main_container aside div:last-child {
+	width: 80%;
+	height: 100px;
+	margin: 20px auto;
+}
+
+#main_container aside div:last-child h1 {
+	width: 50%;
+	box-sizing: border-box;
+	font-size: 20px;
+	color: #277fe1;
+	margin: 0 auto;
+}
+
+#main_container aside div:last-child button {
+	margin-top: 10px;
+	margin-left: 80px; 
+	color:#277fe1;
+	background-color: #8aa9cb;
+	border: none;
+	border-radius: 10px; 
+	cursor: pointer;
+	height: 25px;
+	width: 80px;
+}
+
+#main_container aside div:last-child a:nth-child(2) {
+	display: inline-block;
+	margin-top: 10px
+}
+
+#main_container aside div:last-child a:nth-child(3) {
+	margin-left: 10px;
+	text-decoration: none;
+	font-size: 20px;
+	color: #666666;
+}
+
+article section {
+	width: 80%;
+	margin: 20px auto;
+	background-color: #c6ced2;
+	height: 150px;
+}
+
+article section div {
+	margin-left: 10px;
+}
+
+article section div  a:last-child {
+	margin-left: 10px;
+	text-decoration: none;
+	font-size: 20px;
+	color: #666666;
+}
+
+article section p {
+	margin: 10px auto;
+	width: 90%;
+	font-size: 18px;
+	color: #666666;
+	background-color: #d4d8da;
+	padding: 5px;
+}
+
+article section div {
+	width: 90%;
+	margin: 15px auto;
+	clear: both;
+}
+
+article section div button {
+	float: left;
+	width: 33%;
+	color:#277fe1;
+	background-color: #8aa9cb;
+	border: none;
+	border-radius: 10px; 
+	cursor: pointer;
+	height: 25px;
+	width: 80px;
+	margin-left: 10px;
+}
